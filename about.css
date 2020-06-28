@@ -26,10 +26,13 @@ body{
 .nav{
     display: block;
     position: absolute;
-    margin-right: 5px;
-    margin-left: 1100px;
+    margin-right: 0px;
+    margin-left: 1150px;
     bottom: auto;
     top: 150px;   
+}
+a{
+    padding: 5px;
 }
 a:hover {
     background-color: slategray;
@@ -40,3 +43,21 @@ a:visited {
 a:hover {
     color: skyblue;
 }
+.food{
+    background-color: white;
+    width: 1535px;
+    height: 1000px;
+    position: absolute;
+    display: block;
+}
+.footer{
+    position: absolute;
+    height: 200px;
+    width: 1535px;
+    background-color:rgb(121, 121, 210);
+    margin-top: 1500px;
+    display: block;
+}
+
+
+
