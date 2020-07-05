@@ -2,9 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    background-color: rgb(51, 57, 63);
-}
 .logo{
     margin-left: auto;
     margin-right: auto;
@@ -17,19 +14,20 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     margin-top: 180px;
-    margin-bottom: auto;
     margin-left: 150px;
-    margin-right: auto;
     display: block;
     position: relative;
 }
 .nav{
+    
     display: block;
-    position: absolute;
-    margin-right: 5px;
-    margin-left: 1100px;
-    bottom: auto;
+    position: relative;
+    float: right;
     top: 150px;   
+}
+a{
+    text-decoration: unset;
+    padding: 5px;
 }
 a:hover {
     background-color: slategray;
@@ -40,3 +38,113 @@ a:visited {
 a:hover {
     color: skyblue;
 }
+.content{
+    background-color: white;
+    position: relative;
+    top: 500px;
+    width: 1525px;
+    height: 600px;
+    display: block;
+}
+.title{
+    text-decoration: underline;
+    position: relative;
+    padding: 20px;
+    color: rgb(65, 69, 73);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 300px;
+    display: block;
+}
+input[type=text], select {
+    width: 500px;
+    padding: 10px ;
+    margin: 5px;
+    display: inline-block;
+    border: ivory;
+    border-bottom: 2px inset rgb(109, 109, 109);
+}
+.message{
+    height: 100px;
+}  
+
+input[type=submit] {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 500px;
+    background-color: #595a59;
+    color: white;
+    padding: 14px ;
+    margin: 5px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #2c8b2f;
+}
+  
+.form{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin: 10px;
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+}
+.our{
+    position: relative;
+    float: right;
+    margin-right: 150px;
+    padding: 10px;
+}
+p{
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+.Tel{
+    color: white;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.address{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+}
+.icon{
+    line-height: 50px;
+    padding: 10px;
+    position: relative;
+    display: block;
+    float: right;
+}
+.icon i{
+    color:blue;
+}
+a{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 100%;
+}
+a:visited{
+    background-color: silver;
+    color: white;
+
+}
+.follow{
+    margin: 5px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.photo{
+    position: absolute;
+    display: block;
+    margin-left: 810px;
+    margin-top: 10px;
+}
+
+  

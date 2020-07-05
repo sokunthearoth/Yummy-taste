@@ -29,13 +29,20 @@ body{
     height: 120px;
 }
 .nav{
+
     list-style-type: none;
-    margin-left: 1320px;
-    margin-right: 0px;
+    float: right;
+    margin: 5px;
     margin-top: 60px;
-    margin-bottom: auto;
     display: block;
-    position: absolute;
+    position: relative;
+}
+a{
+    text-decoration: unset;
+    padding: 3px;
+}
+a:active{
+    background-color: yellow;
 }
 a:hover {
     background-color: slategray;
@@ -59,10 +66,10 @@ a:hover {
     margin-right: 500px;
 }
 h2{
-    color: seashell;
+    color: white;
 }
 .content{
-    color: lightblue;
+    color: rgb(31, 37, 39);
 }
 .block-footer{
     background-color: rgb(75, 83, 90);
@@ -72,4 +79,69 @@ h2{
     display: block;
     width: 1520px;
     height: 200px;
+}
+.icon{
+    top: 70px;
+    margin-left: 300px;
+    display: block;
+    position: absolute;
+    float: left;
+    padding: 50px;
+
+}
+.footer-address{
+    margin-left: 100px;
+    padding: 50px;
+    float: left;
+    position: absolute;
+    display: block;
+}
+
+p{
+    font-family: cursive;
+    color: azure;
+}
+.footer-contact{
+    margin-left: 300px;
+    padding: 50px;
+    float: left;
+    position: absolute;
+    display: block;
+}
+input[type=text] {
+    margin-top: 90PX;
+    margin-left: 600px;
+    position: absolute;
+    width: 500px;
+    height: 40PX;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=text], select, textarea {
+    width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 90px;
+    margin-right: 300px;
+    float: right;
+}
+label{
+    font-family: cursive;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 600px;
+    color: ivory;
 }

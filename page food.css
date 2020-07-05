@@ -9,27 +9,30 @@
     margin-right: 100px;
     float: left;
     color: aliceblue;
-
-
 }
-
-ul{
-    font-size: 30px;
+.container{
+float: left; 
+width: 75%;
+height:1000px;
+background-color:pink;
 }
-.main_content{
-    background-color:rgb(43, 40, 40);
-    height: 900px;
+.food{
+    width: 33%;
     float: left;
-    background-color: yellow;
 }
-.pf1{
-    position: absolute;
-    margin-left: 100px;
-    padding: 20px;
-    display: block;
+.link{
+    width:25%;
     float: left;
+<<<<<<< HEAD
     margin-top: 10px;
 
+=======
+    background-color: red;
+>>>>>>> 7aa82fceaec1e695de0ee685f77943235b80a0ec
 }
+
+
+
+
 
 
