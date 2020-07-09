@@ -1,8 +1,18 @@
 *{
-    margin: 0px;
-    padding: 0px;
+box-sizing: inherit;
 }
-
+body{
+    background-color: rgb(228, 235, 241);
+}
+.about{
+    display: flex;
+    box-shadow: 3px slategray;
+    background-color:  white;
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .logo{
     margin-left: auto;
     margin-right: auto;
@@ -12,6 +22,7 @@
     margin-bottom: 5px;
 }
 .text{
+    text-shadow: 3px 3px 5px black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     margin-top: 180px;
@@ -39,39 +50,73 @@ a{
     line-height: 50px;
     border-radius: 100%;
 }
-a:hover {
-    background-color: slategray;
-}
 a:visited {
     color: white;
 }
 a:hover {
-    color: skyblue;
+    background-color: rgb(168, 177, 180);
 }
 .about{
-    background-color: white;
-    width: 1520px;
-    height: 500px;
-    position: absolute;
-    margin-top: 500px;
+    width: 100%
 }
 .content{
+    box-sizing: inherit;
+    margin-left: 15%;
+    margin-right: 15%;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
-.History{
-
-    padding: 100px;
-    margin-left: 125px; 
+.title{
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+    color: rgb(65, 69, 73);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+}
+.Hestory{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.P1,img{
+    
+    display: block;
+    float: left ;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    margin: 20px;
 }
 .P1{
-    width: 33%;
-    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.p2{
+    margin-top: 30px;
+    text-decoration: bold;
+    font-size: 25px;
+    font-family: cursive;
+    color: steelblue;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10;
+    color: rgb(247, 129, 109);
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .footer{
-    width: 1520px;
-    height: 50px;
-    
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: slategrey;
+    color: white;
+ 
 }
 
 
