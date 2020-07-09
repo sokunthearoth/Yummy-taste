@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    margin-top:180px;
+    margin-bottom: 5px;
+}
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-top: 180px;
+    margin-left: 150px;
+    display: block;
+    position: relative;
+}
+.tm-header{
+    background-image: url(picture/Siam-Reap-Restaurants.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.nav{
+    
+    display: block;
+    position: relative;
+    float: right;
+    top: 150px;   
+}
+a{
+    text-decoration: unset;
+    padding: 5px;
+    line-height: 50px;
+    border-radius: 100%;
+}
+a:hover {
+    background-color: slategray;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: skyblue;
+}
