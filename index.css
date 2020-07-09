@@ -79,16 +79,16 @@ a:visited {
     height: 200px;
 }
 .footer-address{
+    margin: 5px;
     color: snow;
     float: left;
     padding: 10px;
-    width: 20%;
 }
 .footer-contact{
-    color: snow;
+    margin: 5px;
     float: left;
+    color: snow;
     padding: 10px;
-    width: 20%;
 }
 p{
     padding: 5px;
@@ -133,9 +133,10 @@ label{
     color: ivory;
 }
 .tm-form{
+    margin: 5px;
+    float: left;
     padding: 10px;
     width: 50%;
-    float: right;
 }
 .footer{
     padding: 30px;
