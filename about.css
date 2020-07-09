@@ -60,13 +60,21 @@ a:hover {
     text-align: center;
 }
 .History{
-    position: relative;
-    float: left;
-    display: block;
-    padding-left: 100px;
-    margin-left: 125px;
-   
+
+    padding: 100px;
+    margin-left: 125px; 
 }
+.P1{
+    width: 33%;
+    float: left;
+}
+.footer{
+    width: 1520px;
+    height: 50px;
+    
+}
+
+
 
 
 
