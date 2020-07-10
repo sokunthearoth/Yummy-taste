@@ -11,6 +11,7 @@ box-sizing: inherit;
 }
 .tm-header{
     background-image: url(picture/Siam-Reap-Restaurants.jpg);
+    text-shadow: 3px 3px 5px black;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -37,7 +38,7 @@ a{
     border-radius: 100%;
 }
 a:hover {
-    background-color: slategray;
+    background-color: rgb(170, 182, 194);
 }
 a:visited {
     color: white;
@@ -45,39 +46,52 @@ a:visited {
 a:hover {
     color: skyblue;
 }
-.Menu{
+.link{
+    color: slategray;
     display: block;
-    position: absolute;
-    background-color:rgb(43, 40, 40);
-    width: 305px;
-    height: 900px;
-    margin-top: 520px;
-    margin-bottom: 500px;
     float: left;
-    color: aliceblue;
+    width: 20%;
+    height: 900px;
+}
 
-
+.p1{
+    margin-top: 5px;
+    background-color: tan;
+    display: block;
+    width: 100%;
+}
+.group1{
+    float: left;
+    display: block;
+    width: 80%;
+}
+.group2{
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.p2{
+    margin: 15px;
+    float: left;
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 330px;
+    font-family: "Lobster";
+    padding: 30px;
 }
 p{
-    text-decoration: solid;
-    font-family:serif ;
-    font-size: 50px;
+    color: tomato;
+    font-size: 20px;
+}
+.footer{
     text-align: center;
-}
-ul{
-    font-size: 30px;
-}
-.main_content{
-    display: block;
-    position: absolute;
-    background-color:rgb(43, 40, 40);
-    width: 1180px;
-    height: 900px;
-    margin-top: 520px;
-    margin-left: 320px;
-    margin-bottom: 500px;
-    float: left;
-}
-img{
-    margin:20px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(233, 203, 120);
+    color: white;
+ 
 }

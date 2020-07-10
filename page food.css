@@ -39,7 +39,7 @@ a{
     border-radius: 100%;
 }
 a:hover {
-    background-color: slategray;
+    background-color: rgb(99, 146, 192);
 }
 a:visited {
     color: white;
@@ -47,27 +47,38 @@ a:visited {
 a:hover {
     color: skyblue;
 }
-.Menu{
+.link{
+    background-color: slategray;
     display: block;
-    position: absolute;
-    background-color:rgb(43, 40, 40);
-    width: 305px;
+    float: left;
+    width: 20%;
     height: 900px;
-    margin-top: 520px;
-    margin-bottom: 500px;
-    margin-right: 100px;
-    float: left;
-    color: aliceblue;
 }
-.container{
-float: left; 
-width: 75%;
-height:1000px;
-background-color:pink;
+
+.p1{
+    margin-top: 5px;
+    background-color: tan;
+    display: block;
+    width: 100%;
 }
-.food{
-    width: 33%;
+.group1{
     float: left;
+    display: block;
+    width: 80%;
+}
+.group2{
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.p2{
+    margin: 20px;
+    float: left;
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 350px;
+    font-family: "Lobster";
+    padding: 30px;
 }
 
 
