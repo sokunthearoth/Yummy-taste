@@ -44,17 +44,22 @@ body{
     float: right;
     top: 150px;   
 }
+.btn{
+    width: 100px;
+    height: 40px;
+}
 a{
-    text-decoration: unset;
-    padding: 5px;
-    line-height: 50px;
-    border-radius: 100%;
+    padding: 1px;
+    text-decoration: none;
 }
-a:visited {
-    color: white;
+.bnt:active{
+    background-color: yellow;
 }
-a:hover {
-    background-color: rgb(168, 177, 180);
+.btn:hover {
+    color:white;
+    background-color: green;
+    cursor: pointer;
+   
 }
 .about{
     width: 100%

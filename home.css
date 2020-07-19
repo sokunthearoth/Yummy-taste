@@ -31,20 +31,22 @@ box-sizing: inherit;
     float: right;
     top: 150px;   
 }
+.btn{
+    width: 100px;
+    height: 40px;
+}
 a{
-    text-decoration: unset;
-    padding: 5px;
-    line-height: 50px;
-    border-radius: 100%;
+    padding: 1px;
+    text-decoration: none;
 }
-a:hover {
-    background-color: rgb(170, 182, 194);
+.bnt:active{
+    background-color: yellow;
 }
-a:visited {
-    color: white;
-}
-a:hover {
-    color: skyblue;
+.btn:hover {
+    color:white;
+    background-color: green;
+    cursor: pointer;
+   
 }
 .link{
     color: slategray;

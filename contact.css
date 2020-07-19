@@ -31,17 +31,24 @@
     display: block;
     position: relative;
     float: right;
-    top: 150px;   
+    top: 140px;   
+}
+.btn{
+    width: 100px;
+    height: 40px;
 }
 a{
-    text-decoration: unset;
-    padding: 5px;
+    padding: 1px;
+    text-decoration: none;
 }
-a:hover {
-    background-color: slategray;
+.bnt:active{
+    background-color: yellow;
 }
-a:visited {
-    color: white;
+.btn:hover {
+    color:white;
+    background-color: green;
+    cursor: pointer;
+   
 }
 .content{
     position: relative;
