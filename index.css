@@ -37,17 +37,22 @@ body{
     display: block;
     position: relative;
 }
-a{
-    text-shadow: 3px 3px 5px black;
-    text-decoration: unset;
-    padding: 3px;
+.btn{
+    width: 100px;
+    height: 40px;
 }
-a:active{
+a{
+    padding: 1px;
+    text-decoration: none;
+}
+.bnt:active{
     background-color: yellow;
 }
-a:hover {
-    background-color: slategray;
-    color: skyblue;
+.btn:hover {
+    color:white;
+    background-color: green;
+    cursor: pointer;
+   
 }
 a:visited {
     color: rgb(168, 163, 159);
